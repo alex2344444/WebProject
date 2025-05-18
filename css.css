@@ -1,0 +1,351 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
+
+ /* navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 12px 24px;
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+  font-size: 14px;
+  width: 100%;
+  height: 10vh;
+ background-color: bl;
+}
+
+.navbar-left,
+.navbar-center,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 16px;
+}
+
+.navbar p {
+  margin: 0 12px;
+  color: black;
+  cursor: pointer;
+}
+
+.navbar p span {
+  margin-right: 4px;
+}
+
+.navbar-right a {
+  color: black;
+  margin: 0 4px;
+  text-decoration: none;
+}
+
+.navbar-right span {
+  margin: 0 4px;
+  color: #666;
+}
+
+.navbar-left img{
+    width: 150px;
+}
+
+.navbar-left p{
+    font-weight: 600;
+}
+
+
+ /*  end navbar */ 
+
+
+  /* footer section */
+.footer {
+      background-color: #151574;
+      color: #fff;
+      padding: 40px 60px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding-top: 3rem;
+    }
+
+    .footer-section {
+      flex: 1 1 200px;
+      margin: 15px;
+    }
+
+    .footer img.qr {
+      width: 230px;
+      height: 250px;
+      margin: 5px;
+    }
+
+    .footer-icons {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .footer-icons img {
+      width: 40px;
+      height: 40px;
+      background-color: #fff;
+      padding: 5px;
+      border-radius: 10px;
+    }
+
+    .footer h3 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+
+    .footer a {
+      color: #ccc;
+      display: block;
+      margin: 6px 0;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .footer a:hover {
+      color: #fff;
+    }
+
+    .footer-bottom {
+      width: 100%;
+      border-top: 1px solid #333;
+      margin-top: 30px;
+      padding-top: 20px;
+      font-size: 12px;
+      color: #aaa;
+      text-align: center;
+    }
+
+    .qr-apps-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.qr {
+  width: 400px;
+  height: 200px;
+}
+
+.store-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.store-icons img {
+  width: 45px;
+  height: 45px;
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 12px;
+}
+
+
+.logo_tutu{
+    width: 200px;
+}
+
+/* end footer section */
+  
+
+ .menu{
+      background-image: url("https://cdn1.tu-tu.ru/hotels-main/images/backgroundHotelsAndApartamens-63eca7ec.s2FK3.jpg");
+      width: 100%;
+      height: 40vh;
+      background-size: cover;      
+      background-position: center; 
+      background-repeat: no-repeat;
+ }
+
+
+
+
+
+     .text_menu{
+        padding: 4rem 14rem;
+        width: 800px;
+         font-size: 25px;
+        color: white;
+        font-weight: 600;
+     }
+
+     .text_pop{
+        font-size: 18px;
+        width: 400px;
+     }
+
+
+    .search p{
+        color: #000000;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .search{
+      width: 56%;
+      height: 18vh;
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px 13px;
+      margin-left: 15%;
+      box-shadow: 0 0 2px 0;
+      
+    }
+
+    .searchd{
+      background-color: rgb(189, 177, 204);
+      color: rgb(57, 6, 6);
+      outline: none;
+      border: none;
+      border-radius: 3px;
+    }
+
+    input{
+      padding: 5px;
+    }
+
+
+    .search button{
+      border: none ;
+      padding: px;
+      color: #5f5fff;
+      background: #d7cfcf;
+      margin: 5px 5px;
+      border-radius: 3px;
+      font-size: 14px;
+    }
+
+
+.places{
+   margin-left: 14%;
+   margin-top: 2%;
+   margin-bottom: 2%;
+}
+
+
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card{
+  width: 300px;
+  height: 280px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+
+.card p{
+  padding: 10px 20px;
+  position: fixed;
+  color: rgb(255, 249, 249);
+  font-weight: 700;
+  font-size: 20px;
+   
+}
+
+.card img{
+  width: 300px;
+  height: 280px;
+  border-radius: 20px;
+  
+}
+
+.box{
+  width: 410px;
+  height: 25vh;
+  background-color: #d2d2f0;
+  border-radius: 20px;
+  margin-bottom: 3%;
+}
+
+
+.cards_two{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.places h4{
+  font-weight: 600;
+}
+
+.otels{
+  margin-left: 13%;
+  color: #3e3eb4;
+  font-size: 14px;
+}
+
+.v p{
+  font-weight: 600;
+  font-size: 23px;
+  margin-left: 13%;
+}
+
+.poi{
+  font-weight: 600 ;
+  font-size: 22px;
+}
+
+.po{
+  width: 1220px;
+}
+
+.p{
+  margin-left: 12%;
+}
+
+.checks{
+  display: flex;
+  justify-content: space-around;
+}
+
+.countrei{
+  background-color: rgb(237, 235, 235);
+  margin-top: 2%;
+  display: flex;
+  border-radius: 20px;
+  
+
+}
+
+.country{
+  padding: 7% 1%;
+  margin-right: 13%;
+  margin-left: -7%;
+}
+
+.cd{
+font-weight: 900;
+font-size: 20px;
+ padding-top: 3%;
+ padding-left: 13%;
+}
+
+.bnv{
+  padding-top: 36%;
+}
+
+.bnvs{
+   padding-top: 30%;
+}
+
